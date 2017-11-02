@@ -1,0 +1,20 @@
+{
+	"name": "pixi-particles",
+	"version": "2.1.1",
+	"main": "dist/pixi-particles.min.js",
+	"dependencies": {
+		"pixi.js": "*"
+	},
+	"ignore": [
+		".travis.yml",
+		".gitignore",
+		".bowerrc",
+		".editorconfig",
+		"package.json",
+		"docs",
+		"src",
+		"tsconfig.json",
+		"jsdoc.conf.json",
+		".eslintrc"
+	]
+}

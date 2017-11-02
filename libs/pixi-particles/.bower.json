@@ -1,0 +1,31 @@
+{
+  "name": "pixi-particles",
+  "version": "2.1.1",
+  "main": "dist/pixi-particles.min.js",
+  "dependencies": {
+    "pixi.js": "*"
+  },
+  "ignore": [
+    ".travis.yml",
+    ".gitignore",
+    ".bowerrc",
+    ".editorconfig",
+    "package.json",
+    "docs",
+    "src",
+    "tsconfig.json",
+    "jsdoc.conf.json",
+    ".eslintrc"
+  ],
+  "homepage": "https://github.com/CloudKidStudio/PixiParticles",
+  "_release": "2.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.1.1",
+    "commit": "b4198e316d07c7ba05228af03070628cd62aec86"
+  },
+  "_source": "https://github.com/CloudKidStudio/PixiParticles.git",
+  "_target": "^2.1.1",
+  "_originalSource": "pixi-particles",
+  "_direct": true
+}

@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "pixi-tween",
+        "scope": null,
+        "escapedName": "pixi-tween",
+        "name": "pixi-tween",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "F:\\work\\html\\html5_games\\com\\gameProgectPixi"
+    ]
+  ],
+  "_from": "pixi-tween@latest",
+  "_id": "pixi-tween@0.2.0",
+  "_inCache": true,
+  "_location": "/pixi-tween",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/pixi-tween-0.2.0.tgz_1479729182529_0.9819616938475519"
+  },
+  "_npmUser": {
+    "name": "nazariglez",
+    "email": "nazari.nz@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "pixi-tween",
+    "scope": null,
+    "escapedName": "pixi-tween",
+    "name": "pixi-tween",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/pixi-tween/-/pixi-tween-0.2.0.tgz",
+  "_shasum": "90ba929683d27f7fc8c89b51183a1307a91c74bd",
+  "_shrinkwrap": null,
+  "_spec": "pixi-tween",
+  "_where": "F:\\work\\html\\html5_games\\com\\gameProgectPixi",
+  "author": {
+    "name": "Nazariglez",
+    "email": "nazari.nz@gmail.com",
+    "url": "http://www.nazariglez.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Nazariglez/pixi-tween/issues"
+  },
+  "dependencies": {},
+  "description": "pixi-tween is a plugin for Pixi.js v4.1 or higher to create ...",
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-runtime": "^6.3.13",
+    "brfs": "^1.4.1",
+    "json-loader": "^0.5.4",
+    "pixi.js": "^4.1.0",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.12.9",
+    "webpack-externals-plugin": "^1.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "90ba929683d27f7fc8c89b51183a1307a91c74bd",
+    "tarball": "https://registry.npmjs.org/pixi-tween/-/pixi-tween-0.2.0.tgz"
+  },
+  "gitHead": "2fe9c8ba4e096142757459db345d7d4f4a1b8871",
+  "homepage": "https://github.com/Nazariglez/pixi-tween",
+  "keywords": [
+    "pixi",
+    "tweenmanager",
+    "animation",
+    "tween"
+  ],
+  "license": "MIT",
+  "main": "./build/pixi-tween.js",
+  "maintainers": [
+    {
+      "name": "nazariglez",
+      "email": "nazari.nz@gmail.com"
+    }
+  ],
+  "name": "pixi-tween",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazariglez/pixi-tween.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js --progress --colors -p",
+    "dev": "webpack --config webpack.config.js --progress --inline --colors --watch",
+    "prepublish": "npm run build"
+  },
+  "version": "0.2.0"
+}

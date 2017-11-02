@@ -1,0 +1,174 @@
+
+skeleton.png
+size: 267,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F
+  rotate: false
+  xy: 219, 201
+  size: 46, 66
+  orig: 57, 75
+  offset: 5, 4
+  index: -1
+body_01
+  rotate: false
+  xy: 150, 132
+  size: 59, 82
+  orig: 61, 84
+  offset: 1, 1
+  index: -1
+com
+  rotate: false
+  xy: 0, 215
+  size: 147, 52
+  orig: 147, 52
+  offset: 0, 0
+  index: -1
+ear_01
+  rotate: false
+  xy: 91, 123
+  size: 57, 90
+  orig: 59, 92
+  offset: 1, 1
+  index: -1
+ear_02
+  rotate: false
+  xy: 0, 34
+  size: 60, 90
+  orig: 62, 92
+  offset: 1, 1
+  index: -1
+eye_01
+  rotate: true
+  xy: 194, 47
+  size: 16, 24
+  orig: 18, 26
+  offset: 1, 1
+  index: -1
+eye_02
+  rotate: true
+  xy: 220, 48
+  size: 15, 24
+  orig: 17, 26
+  offset: 1, 1
+  index: -1
+eye_os_01
+  rotate: true
+  xy: 62, 0
+  size: 50, 33
+  orig: 52, 35
+  offset: 1, 1
+  index: -1
+eyes_01
+  rotate: false
+  xy: 150, 97
+  size: 58, 33
+  orig: 60, 35
+  offset: 1, 1
+  index: -1
+face_01
+  rotate: false
+  xy: 109, 33
+  size: 18, 18
+  orig: 20, 20
+  offset: 1, 1
+  index: -1
+head_face
+  rotate: true
+  xy: 211, 128
+  size: 71, 53
+  orig: 73, 55
+  offset: 1, 1
+  index: -1
+leg_01
+  rotate: true
+  xy: 194, 65
+  size: 16, 51
+  orig: 18, 53
+  offset: 1, 1
+  index: -1
+leg_02
+  rotate: true
+  xy: 0, 9
+  size: 23, 52
+  orig: 25, 54
+  offset: 1, 1
+  index: -1
+leg_03
+  rotate: true
+  xy: 258, 115
+  size: 11, 9
+  orig: 13, 11
+  offset: 1, 1
+  index: -1
+leg_04
+  rotate: true
+  xy: 194, 83
+  size: 12, 8
+  orig: 14, 10
+  offset: 1, 1
+  index: -1
+mouth_03
+  rotate: true
+  xy: 97, 28
+  size: 22, 10
+  orig: 24, 12
+  offset: 1, 1
+  index: -1
+mouth_05
+  rotate: false
+  xy: 0, 2
+  size: 18, 5
+  orig: 20, 7
+  offset: 1, 1
+  index: -1
+n
+  rotate: true
+  xy: 145, 52
+  size: 43, 47
+  orig: 57, 75
+  offset: 7, 14
+  index: -1
+nose_01
+  rotate: false
+  xy: 211, 209
+  size: 6, 5
+  orig: 8, 7
+  offset: 1, 1
+  index: -1
+ru
+  rotate: true
+  xy: 107, 53
+  size: 68, 36
+  orig: 68, 36
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 210, 83
+  size: 43, 46
+  orig: 57, 75
+  offset: 7, 14
+  index: -1
+tail_01
+  rotate: false
+  xy: 0, 126
+  size: 89, 87
+  orig: 91, 89
+  offset: 1, 1
+  index: -1
+y_02
+  rotate: true
+  xy: 149, 216
+  size: 51, 68
+  orig: 57, 75
+  offset: 3, 3
+  index: -1
+у_01
+  rotate: false
+  xy: 62, 52
+  size: 43, 69
+  orig: 57, 75
+  offset: 7, 3
+  index: -1

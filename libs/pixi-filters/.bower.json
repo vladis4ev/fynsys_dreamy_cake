@@ -1,0 +1,25 @@
+{
+  "name": "pixi-filters",
+  "version": "1.0.6",
+  "main": "bin/pixi-filters.js",
+  "ignore": [
+    "package.json",
+    "src",
+    "scripts",
+    "examples",
+    ".gitignore",
+    ".travis.yml",
+    ".npmignore"
+  ],
+  "homepage": "https://github.com/pixijs/pixi-filters",
+  "_release": "1.0.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.6",
+    "commit": "ee096835748c2a177315a6f48168f1e482b7e3b2"
+  },
+  "_source": "https://github.com/pixijs/pixi-filters.git",
+  "_target": "^1.0.6",
+  "_originalSource": "pixi-filters",
+  "_direct": true
+}

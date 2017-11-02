@@ -1,0 +1,145 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "pixi-spine@1.4.1",
+        "scope": null,
+        "escapedName": "pixi-spine",
+        "name": "pixi-spine",
+        "rawSpec": "1.4.1",
+        "spec": "1.4.1",
+        "type": "version"
+      },
+      "F:\\work\\html\\html5_games\\com\\gameProgectPixiNEW"
+    ]
+  ],
+  "_from": "pixi-spine@1.4.1",
+  "_id": "pixi-spine@1.4.1",
+  "_inCache": true,
+  "_location": "/pixi-spine",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/pixi-spine-1.4.1.tgz_1486848606714_0.984902938362211"
+  },
+  "_npmUser": {
+    "name": "ivan.popelyshev",
+    "email": "ivan.popelyshev@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "pixi-spine@1.4.1",
+    "scope": null,
+    "escapedName": "pixi-spine",
+    "name": "pixi-spine",
+    "rawSpec": "1.4.1",
+    "spec": "1.4.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/pixi-spine/-/pixi-spine-1.4.1.tgz",
+  "_shasum": "1202c9bd5f8d5f75b366dd5f10409db8838d62f8",
+  "_shrinkwrap": null,
+  "_spec": "pixi-spine@1.4.1",
+  "_where": "F:\\work\\html\\html5_games\\com\\gameProgectPixiNEW",
+  "author": {
+    "name": "Mat Groves"
+  },
+  "bugs": {
+    "url": "https://github.com/pixijs/pixi-spine/issues"
+  },
+  "contributors": [
+    {
+      "name": "Chad Engler",
+      "email": "chad@pantherdev.com"
+    },
+    {
+      "name": "Richard Davey",
+      "email": "rdavey@gmail.com"
+    },
+    {
+      "name": "Ivan Popelyshev",
+      "email": "ivan.popelyshev@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@types/pixi.js": "~4.3.0"
+  },
+  "description": "Spine implementation for pixi v^3 and v^4",
+  "devDependencies": {
+    "awesome-typescript-loader": "~3.0.0-beta.18",
+    "browserify": "~14.0.0",
+    "concat-files": "~0.1.1",
+    "del": "~2.2.0",
+    "glob": "~7.1.1",
+    "jaguarjs-jsdoc": "~1.0.1",
+    "jsdoc": "~3.4.0",
+    "mkdirp": "~0.5.1",
+    "parallelshell": "~2.0.0",
+    "pixi.js": "~4.3.4",
+    "rimraf": "~2.5.3",
+    "script-loader": "~0.7.0",
+    "shx": "^0.2.2",
+    "source-map-loader": "~0.1.6",
+    "static-html-server": "~0.1.2",
+    "ts-helpers": "~1.1.2",
+    "tsify": "~3.0.1",
+    "typescript": "~2.2",
+    "webpack": "~1.14"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "1202c9bd5f8d5f75b366dd5f10409db8838d62f8",
+    "tarball": "https://registry.npmjs.org/pixi-spine/-/pixi-spine-1.4.1.tgz"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "SPINE-LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "gitHead": "bc64e3e6f3784f5eda1094ddc283561eb63ab3d3",
+  "homepage": "https://github.com/pixijs/pixi-spine",
+  "license": "MIT",
+  "main": "./bin/pixi-spine.js",
+  "maintainers": [
+    {
+      "name": "englercj",
+      "email": "englercj@live.com"
+    },
+    {
+      "name": "ivan.popelyshev",
+      "email": "ivan.popelyshev@gmail.com"
+    }
+  ],
+  "name": "pixi-spine",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixijs/pixi-spine.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.compilation.json",
+    "cleanup": "rimraf bin && mkdirp bin",
+    "concat": "node scripts/concat.js",
+    "docs": "jsdoc -c scripts/jsdoc.conf.json -R README.md",
+    "patch-dts": "node scripts/patch-dts.js",
+    "postbuild": "yarn patch-dts && yarn shx -- rm compilation.ts",
+    "prebuild": "yarn cleanup && yarn concat",
+    "prestart": "yarn cleanup",
+    "sandbox:all": "yarn build && yarn sandbox:browserify && yarn sandbox:webpack && yarn sandbox:vanillajs",
+    "sandbox:browserify": "yarn shx -- cp bin/pixi-spine.js sandbox/build/browserify/pixi-spine.js && yarn browserify -- sandbox/src/app.ts -p [ tsify --noImplicitAny ] -o sandbox/build/browserify/pixi-spine.bundle.js",
+    "sandbox:vanillajs": "yarn shx -- cp bin/pixi-spine.js sandbox/build/vanillajs/pixi-spine.js && tsc -p sandbox/tsconfig.vanilla.json",
+    "sandbox:webpack": "yarn webpack -- --config sandbox/webpack.config.js --progress --profile --colors --display-error-details --display-cached",
+    "sandbox:www": "yarn static-html-server -- -p 9995 -r sandbox/build",
+    "start": "parallelshell \"yarn watch\"",
+    "watch": "tsc -w"
+  },
+  "types": "./bin/pixi-spine.d.ts",
+  "version": "1.4.1"
+}
